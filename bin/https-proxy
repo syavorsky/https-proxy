@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var argv = require('optimist')
+  .usage('Usage: $0 [--target=http://localhost:80] [--port=3001]')
+  .default({
+    target : 'http://localhost:3000',
+    port   : 3001
+  })
+  .argv;
+
+require('../index')(argv.target, argv.port);
