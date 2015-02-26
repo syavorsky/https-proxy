@@ -5,12 +5,17 @@
     "https-proxy": "./bin/https-proxy"
   },
   "description": "Quick way to proxy HTTPS to HTTP requests",
+  "author": "Sergii Iavorskyi <yavorskiy.s@gmail.com>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yavorskiy/https-proxy.git"
+  },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "http-proxy": "^1.8.1",
     "optimist": "^0.6.1"
