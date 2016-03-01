@@ -12,5 +12,5 @@ module.exports = function(target, port) {
     }
   })
     .listen(port);
-  console.log('Proxing to "%s" through "https://localhost:%s"', target, port);
+  console.log('Proxying to "%s" through "https://localhost:%s"', target, port);
 };
